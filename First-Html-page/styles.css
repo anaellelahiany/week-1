@@ -1,0 +1,31 @@
+
+body {
+  background-color: lightblue;
+}
+h1 {
+   font-family: 'Sacramento';
+   color: #66BFBF;
+  display: flex;
+  
+}
+
+ h2{
+  
+  color: #66BFBF;
+font-family: 'Montserrat';
+display: flex;
+}
+  
+ h3{
+  color:  #11999E ;
+
+  display: flex
+}
+
+ hr{
+  
+  color:  #EAF6F6;
+
+ }
+
+ 

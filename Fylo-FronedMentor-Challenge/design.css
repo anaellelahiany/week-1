@@ -1,0 +1,109 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background-color: hsl(229, 57%, 11%);
+  display: flex;
+  position: relative;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  --hsl1: hsl(6, 100%, 80%); 
+  --hsl2: hsl(335, 100%, 65%);
+  
+}
+
+div {
+  /* background-image: url(assets/bg-desktop.png); */
+  /* background-color:hsl(229, 57%, 11%) ; */
+  /* background-size: cover; */
+  /* background-repeat: no-repeat;  */
+  /* display: flex ;  */
+  /* position: left ; */
+  /* margin: 20px; */
+}
+.center-of-img {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.forms-of-left {
+  width: 80%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color:hsl(228, 56%, 26%);
+  border-radius: 2%;
+ padding: 1rem ; border-top-right-radius: 2rem;
+ margin-left: 12rem;
+}
+
+.container-of-img {
+  width: 65%;
+  display: flex;
+  align-items: center;
+}
+
+
+.forms-of-img2{
+  width: 35%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  background-color:hsl(228, 56%, 26%);
+  border-radius: 1rem;
+ padding: 1rem ; border-top-right-radius: 3rem;
+ height: 5%%;
+ margin-left: 5rem;
+ position: relative;
+ justify-content: center;
+}
+
+ .loading-og-img{
+ background-color: black;
+ display: flex;
+ position:absolute;
+color: hsl(335, 100%, 65%);
+position:absolute;;
+
+ }
+
+ .mini-and-max-storage{
+  flex-direction: column;
+  display: flex;
+ align-items: center;
+ height: 25%;
+ width: 100%;
+ position: absolute;
+ color: white;
+ justify-content:space-between;
+
+ }
+
+
+
+
+
+
+progress {
+  
+}
+progress[value]::-webkit-progress-bar {
+  background: var(--hsl1);
+  border-radius: 1.5em;
+}
+progress[value]::-webkit-progress-value {
+  background:  linear-gradient(90deg, var(--hsl1), var(--hsl2));
+  border-radius: 1.5em;
+}
+
+progress[value]::-moz-progress-bar {
+  background:  linear-gradient(90deg, var(--hsl1), var(--hsl2));
+  border-radius: 1.5em;
+}
+
+
+
